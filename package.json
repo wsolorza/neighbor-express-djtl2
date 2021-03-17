@@ -1,0 +1,56 @@
+{
+  "name": "neighbor-express",
+  "version": "0.0.1",
+  "description": "Display data from an Airtable base",
+  "main": "server.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "testwatch": "jest --watchAll",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "dependencies": {
+    "@actions/exec": "^1.0.4",
+    "airtable": "^0.10.1",
+    "airtable-plus": "^1.0.4",
+    "classnames": "^2.2.6",
+    "interweave": "^12.5.0",
+    "markdown-to-jsx": "^6.11.4",
+    "next": "^10.0.0",
+    "next-seo": "^4.5.0",
+    "now": "^18.0.0",
+    "nprogress": "^0.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-process-string": "^1.2.0",
+    "react-recipes": "^1.0.2",
+    "react-responsive-carousel": "^3.2.8",
+    "react-string-replace": "^0.4.4",
+    "snyk": "^1.437.3"
+  },
+  "engines": {
+    "node": "10"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "airtable"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.5.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.21.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^25.5.3"
+  },
+  "snyk": true
+}
